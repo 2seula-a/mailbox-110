@@ -35,7 +35,7 @@ function Hero() {
 
         <div className="hero-visual">
           <img
-            src="/images/book/book-cover.png"
+            src={`${import.meta.env.BASE_URL}images/book/book-cover.png`}
             alt="사서함 110호의 우편물 오리지널 콘셉트 책 표지"
             className="hero-book"
           />
