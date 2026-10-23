@@ -1,0 +1,90 @@
+
+.hero {
+  width: 100%;
+  min-height: 850px;
+  background-color: #F6F3EB;
+  background-image: url("/images/backgrounds/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.hero-inner {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 80px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.hero-content {
+  flex: 1;
+  color: #333D35;
+}
+
+.hero-eyebrow {
+  margin: 0 0 20px;
+  color: #A44636;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.hero-subtitle {
+  margin: 0 0 30px;
+  font-size: 18px;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -2px;
+}
+
+.hero-author {
+  margin: 20px 0 0;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+.hero-description {
+  margin: 45px 0 30px;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 16px 30px;
+  border-radius: 4px;
+  background: #333D35;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.hero-button:hover {
+  background: #A44636;
+}
+
+.hero-visual {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-book {
+  width: 100%;
+  max-width: 430px;
+  height: auto;
+  object-fit: contain;
+}

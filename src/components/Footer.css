@@ -1,0 +1,59 @@
+.site-footer {
+  width: 100%;
+  background: transparent;
+  color: #333D35;
+  padding: 30px 60px 25px;
+}
+
+.footer-inner {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 25px 0;
+  border-top: 1px solid #A44636;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-logo-icon {
+  font-size: 30px;
+  color: #A44636;
+}
+
+.footer-brand p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.footer-message {
+  padding-left: 30px;
+  border-left: 1px solid #333D35;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.footer-disclaimer {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  color: #777770;
+  font-size: 11px;
+  line-height: 1.8;
+  text-align: center;
+}
