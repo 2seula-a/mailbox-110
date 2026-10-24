@@ -95,6 +95,13 @@
   padding: 65px 30px 0;
 }
 
+.character .character-label {
+  margin: 0 0 12px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+}
+
 .character h3 {
   margin: 0 0 30px;
   font-size: 23px;
@@ -108,12 +115,13 @@
 .character p {
   font-size: 15px;
   line-height: 2;
+  letter-spacing: -0.5px;
 }
 
 .character-divider {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .character-divider span {

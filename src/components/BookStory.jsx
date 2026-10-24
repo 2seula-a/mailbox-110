@@ -56,10 +56,11 @@ function BookStory() {
 
         <div className="story-characters">
           <div className="character">
+            <p className="character-label">01 / WRITER</p>
             <h3>공진솔</h3>
             <p className="character-role">라디오 작가.</p>
             <p>
-              낯을 가리고 조용하지만, 누구보다 섬세한 마음을 지닌 사람.
+              낯을 가리고 조용하지만, 누구보다 섬세한 마음을 지녔다.
               <br />
               익숙한 일상 속에서 작은 위로를 찾으며,
               사랑 앞에서는 용기 내어 먼저 다가간다.
@@ -71,11 +72,11 @@ function BookStory() {
           </div>
 
           <div className="character">
+            <p className="character-label">02 / PRODUCER</p>
             <h3>이건</h3>
             <p className="character-role">라디오 프로듀서.</p>
             <p>
-              무뚝뚝하고 까칠하지만,
-              속마음은 누구보다 세심한 사람.
+              무뚝뚝하고 까칠하지만, 속마음은 누구보다 세심한 마음을 품고 있다.
               <br />
               지난 감정의 흔적을 간직한 채,
               새로운 사랑 앞에서 조심스럽게 진심을 마주한다.
