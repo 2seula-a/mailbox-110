@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600;700&display=swap');
 
 .app {
   width: 100%;
@@ -7,4 +8,15 @@
 
 main {
   width: 100%;
+}
+
+.closing-flow {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #F6F3EB;
+  background-image: var(--closing-background);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
 }

@@ -1,22 +1,18 @@
 
 .ending-section {
+  position: relative;
+  z-index: 1;
   width: 100%;
-  min-height: 650px;
-  background-color: #F6F3EB;
-  background-image: url("/images/backgrounds/ending-bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: transparent;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
 }
 
 .ending-container {
   width: 100%;
   max-width: 1320px;
   margin: 0 auto;
-  padding: 150px 60px 40px;
+  padding: 100px 60px 85px;
 }
 
 .ending-content {
@@ -25,26 +21,31 @@
   align-items: center;
   text-align: center;
   color: #333D35;
+  transform: translateY(-70px);
 }
 
 .ending-subtitle {
-  margin: 0 0 35px;
-  font-size: 20px;
+  margin: 0 0 28px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #A44636;
 }
 
 .ending-divider {
   width: 40px;
   height: 2px;
   background: #A44636;
-  margin-bottom: 35px;
+  margin-bottom: 32px;
 }
 
 .ending-title {
-  margin: 0 0 55px;
-  font-size: 58px;
+  margin: 0 0 46px;
+  font-size: 45px;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: -1.5px;
+  font-family: "Noto Serif KR", serif;
+
 }
 
 .ending-button {

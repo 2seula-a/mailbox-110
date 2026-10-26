@@ -38,6 +38,13 @@ function QuoteSection() {
         </div>
 
         <div className="quote-content">
+          <img
+            className="quote-mark-image"
+            src={`${import.meta.env.BASE_URL}images/LETTER2/quotation-marks.png`}
+            alt=""
+            aria-hidden="true"
+          />
+
           <h2 className="quote-text">
             네 사랑이 무사하기를,
             <br />

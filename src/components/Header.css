@@ -3,11 +3,12 @@
   width: 100%;
   padding: 24px 60px;
   background: #F6F3EB;
+  
 }
 
 .header-inner {
   width: 100%;
-  max-width: 1320px;
+  max-width: none;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -24,6 +25,7 @@
   font-weight: 700;
   color: #333D35;
   white-space: nowrap;
+  font-family: "Noto Serif KR", serif;
 }
 
 .logo-icon {
@@ -34,7 +36,7 @@
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 48px;
+  gap: 56px;
 }
 
 .header-nav a {

@@ -5,7 +5,6 @@ import BookStory from "./components/BookStory";
 import QuoteSection from "./components/QuoteSection";
 import Author from "./components/Author";
 import Ending from "./components/Ending";
-import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -17,8 +16,15 @@ function App() {
         <Hero />
         <BookStory />
         <QuoteSection />
-        <Author />
-        <Ending />
+        <div
+          className="closing-flow"
+          style={{
+            "--closing-background": `url(${import.meta.env.BASE_URL}images/backgrounds/ending-bg.png)`,
+          }}
+        >
+          <Author />
+          <Ending />
+        </div>
       </main>
     </div>
   );

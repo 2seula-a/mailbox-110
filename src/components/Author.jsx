@@ -12,7 +12,7 @@ function Author() {
 
         <div className="author-content">
           <div className="author-name">
-            <span className="author-eyebrow">Writer</span>
+            <span className="author-eyebrow">WRITER</span>
             <h2>이도우</h2>
             <span className="author-english">
             <span className="author-english-lee">LEE</span> DO WOO
@@ -31,12 +31,12 @@ function Author() {
             </p>
 
             <a
-              href="https://search.kyobobook.co.kr/search?keyword=이도우"
+              href="https://store.kyobobook.co.kr/person/detail/1000020601?page=1"
               target="_blank"
               rel="noopener noreferrer"
               className="author-link"
             >
-              작가의 다른 작품 보기 ↗
+              책과 작가 더 알아보기 ↗
             </a>
           </div>
         </div>

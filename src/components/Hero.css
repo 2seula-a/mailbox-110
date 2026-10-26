@@ -38,6 +38,7 @@
 .hero-subtitle {
   margin: 0 0 30px;
   font-size: 18px;
+  font-family: "Noto Serif KR", serif;
 }
 
 .hero-title {
@@ -46,6 +47,7 @@
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: -2px;
+  font-family: "Noto Serif KR", serif;
 }
 
 .hero-author {
@@ -80,6 +82,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translateX(80px);
 }
 
 .hero-book {
