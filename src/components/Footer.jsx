@@ -7,7 +7,12 @@ function Footer() {
       <div className="footer-inner">
         <div className="footer-brand">
           <a href="#home" className="footer-logo">
-            <span className="footer-logo-icon">✉</span>
+            <img
+              className="footer-logo-icon"
+              src={`${import.meta.env.BASE_URL}favicon-2.png`}
+              alt=""
+              aria-hidden="true"
+            />
             <span>사서함 110</span>
           </a>
 

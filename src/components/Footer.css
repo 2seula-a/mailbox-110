@@ -35,8 +35,10 @@
 }
 
 .footer-logo-icon {
-  font-size: 30px;
-  color: #A44636;
+  display: block;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
 }
 
 .footer-brand p {

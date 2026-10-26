@@ -29,8 +29,10 @@
 }
 
 .logo-icon {
-  color: #A44636;
-  font-size: 35px;
+  display: block;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
 }
 
 .header-nav {

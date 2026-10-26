@@ -7,7 +7,12 @@ function Header() {
     <header className="site-header">
       <div className="header-inner">
         <a href="#home" className="header-logo">
-          <span className="logo-icon">✉</span>
+          <img
+            className="logo-icon"
+            src={`${import.meta.env.BASE_URL}favicon-2.png`}
+            alt=""
+            aria-hidden="true"
+          />
           <span>사서함 110</span>
         </a>
 
